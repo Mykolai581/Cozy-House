@@ -1,0 +1,32 @@
+.main__shelter {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  color: #545454;
+  text-align: center;
+}
+
+.shelter__title {
+  max-width: 440px;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+.shelter__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.shelter__image {
+  margin-bottom: 30px;
+}
+.shelter__text {
+  font-size: 20px;
+}
+
+@media (max-width: 874.98px) {
+  .shelter__items {
+    flex-direction: column;
+  }
+}

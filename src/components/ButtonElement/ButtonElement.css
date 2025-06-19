@@ -1,0 +1,21 @@
+.button-element {
+  background-color: #f1cdb3;
+  padding: 15px 45px;
+  font-size: 17px;
+  color: #4c4c4c;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button-element:hover {
+  background-color: #c5a48c;
+  transform: scale(0.95) translateY(4px);
+  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.2);
+}
+
+@media (max-width: 768px) {
+  .header__button {
+    padding: 20px 35px;
+  }
+}

@@ -1,0 +1,54 @@
+.main__friend {
+  padding-top: 100px;
+  background: radial-gradient(
+    circle at top left,
+    #977d09 -150%,
+    #2e2b2b 35%,
+    #292929 50%
+  );
+}
+
+.friend__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.friend__content {
+  font-weight: 400;
+  max-width: 460px;
+}
+.friend__title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.friend__text {
+  font-family: "Noto Sans Georgian";
+  font-size: 16px;
+  max-width: 100%;
+  color: #cdcdcd;
+  font: 300px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.friend__image {
+  max-width: 698px;
+}
+.friend__image img {
+  max-width: 100%;
+}
+
+@media (max-width: 1237.98px) {
+  .friend__container {
+    justify-content: center;
+  }
+
+  .friend__content {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .friend__title {
+    font-size: 30px;
+  }
+}

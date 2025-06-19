@@ -1,0 +1,45 @@
+.main__about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
+  align-items: center;
+  justify-content: center;
+}
+.about__image {
+  max-width: 300px;
+}
+.about__image img {
+  max-width: 100%;
+}
+.about__content {
+  max-width: 430px;
+  color: #545454;
+}
+.about__title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.about__text {
+  font-family: "Noto Sans Georgian";
+  font-size: 16px;
+  max-width: 100%;
+
+  font: 300px;
+  line-height: 1.4;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 940px) {
+  .about__container {
+    flex-direction: column-reverse;
+  }
+}
