@@ -47,10 +47,3 @@
 .custom-next {
   right: -40px;
 }
-
-@media (max-width: 767.98px) {
-  .custom-prev,
-  .custom-next {
-    font-size: 10px;
-  }
-}
