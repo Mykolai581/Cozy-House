@@ -34,7 +34,7 @@ export default function MainRestSection() {
 
         <div className="slider-container">
           <button ref={prevRef} className="custom-prev">
-            ←
+            {"<"}
           </button>
 
           <Swiper
@@ -144,7 +144,7 @@ export default function MainRestSection() {
             </SwiperSlide>
           </Swiper>
           <button ref={nextRef} className="custom-next">
-            →
+            {">"}
           </button>
         </div>
 
