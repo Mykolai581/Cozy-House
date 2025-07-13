@@ -7,6 +7,7 @@ import MainPetsCart from "../MainPetsCart/MainPetsCart";
 import Image1 from "../../../Images/MainRestSection/pets-katrine.jpg";
 import Image2 from "../../../Images/MainRestSection/pets-jennifer.png";
 import Image3 from "../../../Images/MainRestSection/pets-woody.png";
+
 import ButtonElement from "../ButtonElement/ButtonElement";
 import Animation from "../ScrollAnimation/ScrollAnimation.jsx";
 
@@ -33,7 +34,7 @@ export default function MainRestSection() {
 
         <div className="slider-container">
           <button ref={prevRef} className="custom-prev">
-            ⬅
+            ←
           </button>
 
           <Swiper
@@ -143,7 +144,7 @@ export default function MainRestSection() {
             </SwiperSlide>
           </Swiper>
           <button ref={nextRef} className="custom-next">
-            ➡
+            →
           </button>
         </div>
 
