@@ -49,8 +49,8 @@
 }
 
 @media (max-width: 767.98px) {
-  .custom-prev:hover,
-  .custom-next:hover {
+  .custom-prev,
+  .custom-next {
     font-size: 10px;
   }
 }
