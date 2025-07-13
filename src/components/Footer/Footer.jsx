@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__image">
-          <img src={Image} alt="Image" />
+          <img src={Image} alt="Image" loading="lazy" />
         </div>
       </div>
     </footer>

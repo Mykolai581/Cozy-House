@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Mykolai581.github.io/Project-React-3",
+  "homepage": "https://Mykolai581.github.io/Cozy-House",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

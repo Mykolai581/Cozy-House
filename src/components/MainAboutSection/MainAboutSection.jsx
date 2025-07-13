@@ -7,7 +7,7 @@ export default function MainAboutSection() {
     <section className="main__about about">
       <div className="about__container">
         <div className="about__image">
-          <img src={Image} alt="Image" />
+          <img src={Image} alt="Image" loading="lazy" />
         </div>
         <div className="about__content">
           <ScrollAnimation>

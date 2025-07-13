@@ -30,7 +30,7 @@ export default function MainShelterSection() {
             <Animation key={`${item.text}-${index + 1}`}>
               <div className="shelter__item">
                 <div className="shelter__image">
-                  <img src={item.img} alt={item.text} />
+                  <img src={item.img} alt={item.text} loading="lazy" />
                 </div>
                 <div className="shelter__text">{item.text}</div>
               </div>

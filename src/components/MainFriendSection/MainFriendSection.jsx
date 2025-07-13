@@ -25,7 +25,7 @@ export default function MainFriendSection() {
         </div>
 
         <div className="friend__image">
-          <img src={Image} alt="Image" />
+          <img src={Image} alt="Image" loading="lazy" />
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@ export default function MainPetsCart({ img, name, title, text, age }) {
     <>
       <div className="cart__pet pet">
         <div className="pet__image">
-          <img src={img} alt="Pet" />
+          <img src={img} alt="Pet" loading="lazy" />
         </div>
         <div className="pet__name">{name}</div>
         <ButtonElement

@@ -9,7 +9,7 @@ export default function MainDonationSection() {
     <section className="main__donation donation">
       <div className="donation__container">
         <div className="donation__image">
-          <img src={Image} alt="Donation dog" />
+          <img src={Image} alt="Donation dog" loading="lazy" />
         </div>
         <Animation>
           <div className="donation__content">
